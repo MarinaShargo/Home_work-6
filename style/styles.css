@@ -56,6 +56,10 @@ body {
     background-color: #EEEFF1;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .dizayn {
     background-color: #EEEFF1;
     padding-bottom: 141px ; 
@@ -118,25 +122,39 @@ body {
     margin-bottom: 100px;
 }
 
-.peshka {
-    font-family: "Roboto";
-    font-style: normal;
-    text-align: center;
-    display: inline-block;
-    font-weight: 500;
+.section-third {
+    background-color: #34547A;
+    padding: 100px 0;
+}
+
+.card-text{
+    width: 72px;
+    color: #FFFFFF;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.card-text .num {
+    font-family: 'Roboto-2';
+    font-size: 21px;
+    line-height: 25px; 
+    color: #FFFFFF;
+}
+
+.card-text .text {
+    font-family: 'Roboto';
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    vertical-align: bottom;
-    margin-right: 49px;
 }
 
-.projects {
-    background-color: #34547A;
-    padding: 100px 0;
-    text-align: center;
-    vertical-align: bottom;
-  }
+.margin ~ .card {
+    margin-left: 47px;
+}
 
 .aboutme {
     margin: 0 auto ;
