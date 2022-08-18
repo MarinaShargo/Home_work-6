@@ -4,6 +4,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "Roboto-2";
+    src: url("../fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -31,7 +37,7 @@ body {
     letter-spacing: 0.1em;
     color: #000000;
     text-decoration: none;
-    margin-bottom: 162px;
+    
     
 }
 
@@ -46,15 +52,16 @@ body {
 }
 
 .header {
-    padding: 79px ;
+    padding: 79px 0 162px 0 ;
     background-color: #EEEFF1;
 }
 
 .dizayn {
     background-color: #EEEFF1;
+    padding-bottom: 141px ; 
 }
 
-.textme {
+.button {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -67,23 +74,20 @@ body {
     height: 65px;
     border: none;
     background: #34547A;
-    margin-top: 65px;
-    margin-bottom: 141px;
     }
 
-.text-center {
+.center {
     font-family: "Roboto";
-    font-style: normal;
     width: 540px;
-    height: 67px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 65px;
     color: #727272
-}
+    }
 
-.text-center-zagolovok-verstka {
-    font-family: "Roboto";
+.zagolovok {
+    font-family: "Roboto-2";
     font-weight: 500;
     font-size: 48px;
     line-height: 79px;
@@ -99,7 +103,6 @@ body {
     line-height: 38px;
     text-align: center;
     color: #000000;
-    margin-top: 112px;
     margin-bottom: 50px;
 }
 
@@ -116,15 +119,15 @@ body {
 }
 
 .peshka {
+    font-family: "Roboto";
+    font-style: normal;
     text-align: center;
     display: inline-block;
-    width: 71px;
-    height: 44px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    vertical-align: top;
+    vertical-align: bottom;
     margin-right: 49px;
 }
 
@@ -132,23 +135,23 @@ body {
     background-color: #34547A;
     padding: 100px 0;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: bottom;
   }
 
 .aboutme {
     margin: 0 auto ;
     background-color: #FFFFFF ;
-    padding: 70px 20px;
+    padding: 100px 0 0 0;
 }
 
 .howiwork {
     background-color: #EEEFF1;
-    padding: 100px 0 0 0;
-    margin: 0 auto
+    padding: 100px 0 100px 0;
+    margin: 0 auto 50;
 }
 
 .text-center-zagolovok {
-    font-family: "Roboto";
+    font-family: "Roboto-2";
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -156,18 +159,6 @@ body {
     text-align: center;
     color: #000000
     
-}
-
-.text-center {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
-    margin: 50px auto
-
 }
 
 .video {
@@ -178,17 +169,18 @@ body {
 
 .footer {
     background-color: #34547A;
-    height: 151px;          
+    padding: 50px 0 50px 0;      
 }
 
 .ivaniv {
-    font-family: "Roboto";
+    font-family: "Roboto-2";
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
-    padding-top: 50px;
+    margin: 0 0 20px 0;
+    
 }
 
 .allrigths {
@@ -198,7 +190,7 @@ body {
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
-    margin-bottom: 50px;
+   
 }
 
 
